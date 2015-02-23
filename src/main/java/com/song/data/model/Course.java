@@ -22,7 +22,7 @@ public class Course implements Serializable {
 	
 	public void setCourseName(String value) { courseName = value; }
 	public void setScore(Integer value) { score = value; }
-	// test1
+	
 	public Course() {}
 	public Course(String courseName, Integer score) {
 		this.courseName = courseName;
